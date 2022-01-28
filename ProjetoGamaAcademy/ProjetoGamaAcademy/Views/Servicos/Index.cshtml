@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProjetoGamaAcademy.Models.Servicos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Serviços</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    <img src="@Url.Action("GetImage", "Servicos", new {id = item.Id})" width="150" height="100" alt="servico" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-dark">Editar</a> 
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalhar</a> 
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
