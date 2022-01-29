@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj": {}
+    "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj": {
+    "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj",
+        "projectUniqueName": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj",
+        "projectPath": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\API\\API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\API\\obj\\",
+        "outputPath": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,18 +22,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj": {
-                "projectPath": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj"
+              "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj": {
+                "projectPath": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj"
               }
             }
           }
@@ -45,12 +45,18 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -75,14 +81,14 @@
         }
       }
     },
-    "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj": {
+    "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj",
+        "projectUniqueName": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj",
         "projectName": "ProjetoGamaAcademy",
-        "projectPath": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj",
+        "projectPath": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\obj\\",
+        "outputPath": "C:\\dev\\ProjetoGamaAcademy\\GamaAcademy\\ProjetoGamaAcademy\\ProjetoGamaAcademy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,15 +99,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -112,26 +118,32 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.12, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

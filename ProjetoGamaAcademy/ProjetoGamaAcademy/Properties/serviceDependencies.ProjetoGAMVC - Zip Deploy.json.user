@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-01-29T03:25:36.5268496Z"
+    }
+  },
+  "parameters": {
+    "ProjetoGAMVC.resourceGroupLocation": {
+      "Name": "ProjetoGAMVC.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "ProjetoGAMVC.resourceName": {
+      "Name": "ProjetoGAMVC.resourceName",
+      "Type": null,
+      "Value": "ProjetoGAMVC"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "9735aa38-f685-4097-baa8-f252ae9a18cd"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "group-projetogama"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "9735aa38-f685-4097-baa8-f252ae9a18cd"
+    },
+    "ProjetoGAMVC.subscriptionId": {
+      "Name": "ProjetoGAMVC.subscriptionId",
+      "Type": "subscription",
+      "Value": "9735aa38-f685-4097-baa8-f252ae9a18cd"
+    },
+    "ProjetoGAMVC.resourceGroupName": {
+      "Name": "ProjetoGAMVC.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "group-projetogama"
+    }
+  }
+}
